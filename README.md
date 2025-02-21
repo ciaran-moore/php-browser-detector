@@ -2,28 +2,32 @@ Browser Detector
 ================
 
 [![Build Status](https://travis-ci.org/sinergi/php-browser-detector.svg?branch=master)](https://travis-ci.org/sinergi/php-browser-detector)
-[![StyleCI](https://styleci.io/repos/3752453/shield?style=flat)](https://styleci.io/repos/3752453)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sinergi/php-browser-detector/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sinergi/php-browser-detector/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/sinergi/php-browser-detector/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/sinergi/php-browser-detector/?branch=master)
 [![Latest Stable Version](http://img.shields.io/packagist/v/sinergi/browser-detector.svg?style=flat)](https://packagist.org/packages/sinergi/browser-detector)
-[![Total Downloads](https://img.shields.io/packagist/dt/sinergi/browser-detector.svg?style=flat)](https://packagist.org/packages/sinergi/browser-detector)
 [![License](https://img.shields.io/packagist/l/sinergi/browser-detector.svg?style=flat)](https://packagist.org/packages/sinergi/browser-detector)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/1865a02e-284c-428a-a2b4-091c997e5935/mini.png)](https://insight.sensiolabs.com/projects/1865a02e-284c-428a-a2b4-091c997e5935)
-[![Join the chat at https://gitter.im/sinergi/php-browser-detector](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sinergi/php-browser-detector?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+## ================ INFO ================
+
+This is an updated version of sinergi/browser-detector for PHP 8.4 Compatibility. Nullable function parameters have been amended to allow null, and should be a drop in replacement to the abandoned project.
+
+All namespaces have been left as per the original project, the only differences are the composer package name, and the function type updates.
+
+
+## ======================================
+
 
 Detecting the user's browser, operating system, device and language from PHP. Because browser detection is not always
 reliable and evolves at all time, use with care and feel free to contribute.
 
 ## Requirements
 
-This library uses PHP 5.3+.
+This library uses PHP 8.0+.
 
 ## Install
 
 It is recommended that you install the PHP Browser library [through composer](http://getcomposer.org). To do so, run the following command:
 
 ```sh
-composer require sinergi/browser-detector
+composer require ciaran-moore/browser-detector
 ```
 
 ## Browser Detection
