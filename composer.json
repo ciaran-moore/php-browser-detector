@@ -10,10 +10,13 @@
         },
         {
             "name": "Chris Schuld"
+        },
+        {
+            "name": "Ciaran Moore"
         }
     ],
     "require": {
-        "php": ">=7.2"
+        "php": ">=8.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.0 || ^9.4"
